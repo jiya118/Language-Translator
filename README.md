@@ -38,16 +38,19 @@ A lightweight, intelligent language translator app built using **Flask**, **Lang
 
 3. **Set up your .env file:**
     Create '.env' file containing your API keys -
+   
     " GOOGLE_API_KEY=your_google_api_key
      LANGCHAIN_API_KEY=your_langchain_api_key "
+   
     You'll need:
     -Google Generative AI API Key (get it from Google AI Studio)
     -LangChain API Key (for LangSmith/tracing)
 
-4. **Run the App:**
+5. **Run the App:**
    ```bash
    python app.py or flask run
-   - Follow the link to your localhost. 
+   
+   Follow the link to your localhost. 
 
 
  ## 📂 File Structure
