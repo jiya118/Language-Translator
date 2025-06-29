@@ -37,38 +37,39 @@ A lightweight, intelligent language translator app built using **Flask**, **Lang
     pip install -r requirements.txt
 
 3. **Set up your .env file:**
+   
     Create '.env' file containing your API keys -
    
-    " GOOGLE_API_KEY=your_google_api_key
-     LANGCHAIN_API_KEY=your_langchain_api_key "
+     GOOGLE_API_KEY=your_google_api_key </br>
+     LANGCHAIN_API_KEY=your_langchain_api_key 
    
-    You'll need:
-    -Google Generative AI API Key (get it from Google AI Studio)
+    You'll need: </br>
+    -Google Generative AI API Key (get it from Google AI Studio) </br>
     -LangChain API Key (for LangSmith/tracing)
 
 5. **Run the App:**
    ```bash
    python app.py or flask run
-   
+   ```
    Follow the link to your localhost. 
 
 
  ## 📂 File Structure
-├── app.py 
-├── templates/ 
-│   └── index.html 
-├── static/ 
-│   └── styles.css 
-│   └── scripts.js 
-├── .env 
-└── requirements.txt
+├── app.py </br>
+├── templates/ </br>
+│      └── index.html </br>
+├── static/ </br>
+│      └── styles.css </br>
+│      └── scripts.js </br>
+├── .env </br>
+└── requirements.txt </br>
 
 
 ## 🧠 Example 
-**Input:**
+**Input:**</br>
 "How are you today?"
 
 **Target Language:** Spanish
 
-**Output:**
+**Output:**</br>
 "¿Cómo estás hoy?"
