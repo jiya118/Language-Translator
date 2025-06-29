@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Translator App</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Translate It!</h1>
+    <div class="language-boxes">
+      <textarea id="englishText" class="output" placeholder="Enter English text..."></textarea>
+      <textarea id="output" class="output" placeholder="Translated text shows up here..." readonly></textarea>
+    </div>
+    <select id="languageSelect">
+      <option value="French">French</option>
+      <option value="Spanish">Spanish</option>
+      <option value="German">German</option>
+      <option value="Italian">Italian</option>
+      <option value="Gujarati">Gujarati</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Korean">Korean</option>
+      <option value="Chinese">Chinese</option>
+    </select>
+    <button onclick="translateText()">Translate</button>
+  </div>
+  <script src="/static/scripts.js" defer></script>
+</body>
+</html>
